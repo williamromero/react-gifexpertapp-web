@@ -15,8 +15,8 @@ const AddCategory = ({ categories, setCategories }) => {
     // inputValue.trim().length > 2 ? setCategories(cats => [...cats, inputValue]) : setInputValue('');
   };
   
-  const handleKeyUp = (e) => {
-    let elm = e.target.value;
+  const handleKeyUp = ({target}) => {
+    let elm = target.value;
     clearTimeout(timer); 
     timer = setTimeout(() => { setInputValue(elm) }, 300);
   }

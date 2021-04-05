@@ -4,7 +4,7 @@ import GifGrid from './GifGrid';
 
 function GifExpertApp() {
 
-  const [ categories, setCategories ] = useState(['Dragon Ball'])
+  const [ categories, setCategories ] = useState(['Goku'])
   // const addElement = () => setCategories([...categories, 'Caballeros del Zodiaco']);
 
   return (
